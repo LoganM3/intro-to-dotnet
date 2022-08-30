@@ -11,7 +11,7 @@ try{
 
 decimal newBalance = account2.MakeDepositGetDeposit(-1);
 }catch(Exception ex){
-    Console.WriteLine($"we got an error when running MakeDepositGetBalance(-1)");
+    Console.WriteLine($"we got an error when running MakeDepositGetBalance(-1)" + ex.Message);
 }
 
 
